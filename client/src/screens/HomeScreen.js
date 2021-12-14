@@ -9,7 +9,6 @@ import Product from '../components/Product';
 // Importing Actions
 
 import { getProducts as listProducts } from '../redux/actions/productActions';
-import { addToCart } from '../redux/actions/cartActions';
 
 const HomeScreen = () => {
    const dispatch = useDispatch();
