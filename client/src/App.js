@@ -5,6 +5,7 @@ import './App.css';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
+import AdminPanel from './screens/AdminPanel';
 
 // Components
 
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/" element={<HomeScreen />} />
             <Route exact path="/product/:id" element={<ProductScreen />} />
             <Route exact path="/cart" element={<CartScreen />} />
+            <Route exact path="/admin" element={<AdminPanel />} />
          </Routes>
          {/* HomeScreen */}
          {/* ProductScreen */}
